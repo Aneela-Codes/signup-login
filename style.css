@@ -31,9 +31,8 @@ button, input{
     height: 120vh;
     background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('https://images.pexels.com/photos/810041/pexels-photo-810041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     background-size: 100% 100%, cover;
-    display: flex;
-    justify-content: center;
-    align-content: center;
+    display: grid;
+   place-items: center;
 }
 .form-box{
     width: 35rem;
